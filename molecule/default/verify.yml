@@ -18,8 +18,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: wg --version
+    - name: openconnect --version
       ansible.builtin.command:
-        cmd: wg --version
+        cmd: openconnect --version
       register: result
       changed_when: result is not succeeded
