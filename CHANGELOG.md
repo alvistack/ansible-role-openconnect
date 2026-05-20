@@ -1,7 +1,14 @@
 # Ansible Role for OpenConnect
 
-## 13.6.0 - TBC
+## 13.8.0 - TBC
 
+## 13.7.0 - 2026-05-20
+
+- Support Ansible community package 13.7.0
+
+## 13.6.0 - 2026-05-19
+
+- Support Ansible community package 13.6.0
 - Initial release for Ansible community package 4.10 or higher
 - This role was designed for:
     - Ubuntu 20.04, 22.04, 24.04, 25.04, 25.10
